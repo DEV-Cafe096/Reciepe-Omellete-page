@@ -1,0 +1,87 @@
+:root{
+    --font-size--:40px;
+    --margin--:20px
+}
+
+@media(max-width: 660px) {
+    .container-principal{
+        width: 100%;
+    }
+    .title h1 {
+        font-size: 60px;
+        margin-bottom: 20px;
+        margin-left: 30px;
+    }
+
+    .container-principal .image img {
+        width: 600px;
+        /* transform: translateX(-50px); */
+    }
+
+    .title .paragrafo {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(615px, 1fr));
+        gap: 20px;
+        font-size: 32px;
+        padding: 30px;
+        margin: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        
+        
+
+    }
+
+    .preparation .preparation-time{
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .color-square{
+        font-size: 32px;
+    }
+
+    .ingredients .ingredients-title{
+        margin: var(--margin--);
+
+        font-size: var(--font-size--);
+    }
+
+    .ingredients .items {
+        font-size: 32px;
+        margin-left: 30px;
+    }
+
+    .instructions .instructions-title {
+        font-size: var(--font-size--);
+        margin: var(--margin--);
+
+    }
+
+    .instructions .passos{
+        font-size: 30px;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .nutrition-title {
+        font-size: var(--font-size--);
+        margin: var(--margin--);  
+    }
+
+    .nutrition p{
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    .lista{
+        font-size: 30px;
+        text-align: center;
+        padding: 10px;
+        margin-left: 10px;
+    }
+
+
+}
+

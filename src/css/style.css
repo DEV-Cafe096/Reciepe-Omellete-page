@@ -1,0 +1,149 @@
+:root {
+    --color-title--: #814633;
+    --fonte--: 'Young Serif';
+    --peso-fonte--: 400;
+
+
+}
+
+
+li {
+    margin-left: 65px;
+
+}
+
+
+main {
+    background-color: #ffffff;
+    width: 670px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+
+.container-principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-principal .image img {
+    width: 620px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 15px;
+    margin-left: 2.5px;
+
+}
+
+.title h1 {
+    font-size: 40px;
+    margin-top: 10px;
+    padding: 10px;
+    font-family: 'Young Serif';
+    font-weight: 400;
+
+}
+
+
+.preparation .preparation-time {
+    padding: 10px;
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 20px;
+    color: #752B49;
+
+
+}
+
+li {
+    padding: 5px;
+}
+
+.ingredients .ingredients-title {
+    margin-top: 40px;
+    font-size: 25px;
+    padding: 20px;
+    transform: translateX(-18px);
+    color: var(--color-title--);
+    font-family: var(--fonte--);
+    font-weight: var(--peso-fonte--);
+
+}
+
+.ingredients .items li {
+    margin-left: 40px;
+}
+
+
+
+.instructions .instructions-title {
+    font-size: 25px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    color: var(--color-title--);
+    font-family: var(--fonte--);
+    font-weight: var(--peso-fonte--);
+
+}
+
+
+
+.nutrition-title {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: var(--color-title--);
+    font-weight: var(--peso-fonte--);
+    font-family: var(--fonte--);
+
+
+}
+
+.lista {
+    padding: 20px;
+
+}
+
+table {
+    width: 62%;
+    padding: 10px;
+
+}
+
+.lista .info {
+    display: flex;
+    justify-content: end;
+    color: var(--color-title--);
+    font-weight: bold;
+
+
+}
+
+.items {
+    
+    color: var(--color-title--);
+    transform: translateX(-20px);
+
+
+}
+
+.color-list{
+    color: #000000;
+    margin: 5px;
+    margin-left: 15px;
+}
+
+.color-square{
+    color: #752B49;
+    transform: translateX(-18px);
+    
+}
+
+.color-preparation{
+    color: #000000;
+    margin-left: 20px;
+}
